@@ -1,0 +1,29 @@
+{
+  "name": "cors-proxy",
+  "version": "1.0.0",
+  "description": "http cors proxy",
+  "keywords": [
+    "cors",
+    "proxy",
+    "http-proxy"
+  ],
+  "homepage": "https://github.com/Dev-SK01/cors-proxy#readme",
+  "bugs": {
+    "url": "https://github.com/Dev-SK01/cors-proxy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-SK01/cors-proxy.git"
+  },
+  "license": "ISC",
+  "author": "devsk",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start":"node server.js"
+  },
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  }
+}
