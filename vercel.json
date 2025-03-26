@@ -12,7 +12,7 @@
 
    "routes": [
 
-      { "src": "/(*)", "dest": "/server.js" , method:["GET","POST"] }
+      { "src": "/(*)", "dest": "/server.js" , "method":["GET","POST"] }
 
    ]
 
