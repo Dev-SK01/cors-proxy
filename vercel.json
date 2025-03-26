@@ -14,7 +14,5 @@
 
       { "src": "/(*)", "dest": "/server.js" }
 
-   ],
-   "method":["GET","POST"],
-
+   ]
 }
